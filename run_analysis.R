@@ -79,7 +79,7 @@ tidy_data = dcast(melted_data, subject + activity ~ variable, mean)
 
 # Write the tidy data to tidy_data.txt. This is not intended to be a 
 # human-readable text file, it should be read by read.table().
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, file = "./tidy_data.txt", row.name=FALSE)
 
 # Read it back in just to verify the data
-my_data <- read.table("tidy_data.txt")
+my_data <- read.table("tidy_data.txt", header=TRUE)
