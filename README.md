@@ -3,7 +3,7 @@ Final project for the Coursera course "Getting and Cleaning Data" from JHU
 
 Using the following link for the data source:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-This project contains one R script called run_analysis.R that does the following (not necessarily in this order):
+This project contains one R script called run_analysis.R that does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
